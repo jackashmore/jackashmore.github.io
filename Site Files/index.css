@@ -1,0 +1,65 @@
+/* Links/buttons */
+
+a {
+  color: #bb86fc !important;
+  text-decoration: none;
+
+}
+
+/* Background of site */
+body {
+  background-color: #1c2126 !important;
+  font-family: "MesloLGS-Regular";
+  
+}
+
+/* Idk what this does, gonna play around with it */
+hr {
+  background-color: #bb86fc !important;
+  color: #bb86fc !important;
+
+}
+
+@font-face {
+  font-family: 'MesloLGS-Regular';
+  src: url(Fonts/MesloLGS-Regular.ttf);
+}
+
+
+/* This section and the three after make the elements "breathe" when hovered over 
+.sec-expand {
+  transition: transform .2s;
+}
+
+.sec-expand:hover {
+  transform: scale(1.02);
+}
+
+.icon-expand {
+  transition: transform .2s;
+}
+
+.icon-expand:hover {
+  transform: scale(1.2);
+}
+*/
+
+.sec-expand {
+  transition: all .2s ease-in-out;
+}
+
+.sec-expand:hover {
+  transform:  scale(1.05);
+}
+
+/* The boxes */
+.surface-one {
+  background-color: #303841;
+  /* Text within boxes */
+  color: #ffffff;
+}
+
+/* Boxes within the above boxes */
+.surface-two {
+  background-color: #292929;
+}
