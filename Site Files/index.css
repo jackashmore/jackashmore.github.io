@@ -8,7 +8,8 @@ a {
 
 /* Background of site */
 body {
-  background-color: #1c2126 !important;
+  /* 1c2126 */
+  background-color: #21262c !important;
   font-family: "MesloLGS-Regular";
   
 }
@@ -56,7 +57,8 @@ hr {
 .surface-one {
   background-color: #303841;
   /* Text within boxes */
-  color: #ffffff;
+  /* color: #ffffff; */
+	color: #cc99cc; /* This is a cool light purple */
 }
 
 /* Boxes within the above boxes */
