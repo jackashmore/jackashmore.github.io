@@ -6,7 +6,7 @@
 body {
   background-color: #303841;
   font-family: "MesloLGS-Regular";
-  color: #cc99cc; /* cool light purple */
+  color: #cc99cc;
 }
 
 .max-width-centered {
@@ -19,12 +19,30 @@ body {
   background-color: #2E3238;
   padding: 20px;
   border-radius: 12px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.bubble:hover {
+  transform: scale(1.02);
 }
 
 .nested-bubble {
   background-color: #454B54;
-  padding: 20px;
+  padding: 15px;
   border-radius: 12px;
+}
+
+.about-me-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: white;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.work-exp-item {
+  margin-top: 4px;
+  margin-bottom: 6px;
 }
 
 .orange-text {
@@ -55,15 +73,13 @@ h3::after {
 p {
   font-size: 1.2em;
 }
-/* 
-/* link styling */
-/* a {
-  color: #bb86fc;
-  text-decoration: none;
+
+div {
+  margin-bottom: 10px;
 }
 
-h4 {
-  color: #bb86fc;
+pre {
+  font-size: 1.2em
 }
   /* Colors:
     orange: #F9AE57
@@ -73,16 +89,3 @@ h4 {
     lighter bubble color: #454B54
 
   */
-
-/* dividers
-hr {
-  background-color: #bb86fc;
-  color: #bb86fc;
-} */
-
-
-/* .container {
-  display: flex;
-}
-
-/* animations + box styling */
