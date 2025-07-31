@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'MesloLGS-Regular';
+  src: url(./site-files/fonts/MesloLGS-Regular.ttf);
+}
+
+body {
+  background-color: #303841;
+  font-family: "MesloLGS-Regular";
+  color: #cc99cc; /* cool light purple */
+}
+
+.max-width-centered {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.bubble {
+  background-color: #2E3238;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.nested-bubble {
+  background-color: #454B54;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.orange-text {
+  color: #F9AE57;
+}
+
+.cyan-text {
+  color: #60B4B4;
+}
+
+.white-text {
+  color: #FFFFFF;
+}
+
+.gray-text {
+  color: #A6ACB9;
+}
+
+h1 {
+  color: #cc99cc;
+}
+
+h3::after {
+  content: ":";
+  color: white;
+}
+
+p {
+  font-size: 1.2em;
+}
+/* 
+/* link styling */
+/* a {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+h4 {
+  color: #bb86fc;
+}
+  /* Colors:
+    orange: #F9AE57
+    purple text: #C695C6
+    background: #303841
+    bubble color dark: #2E3238
+    lighter bubble color: #454B54
+
+  */
+
+/* dividers
+hr {
+  background-color: #bb86fc;
+  color: #bb86fc;
+} */
+
+
+/* .container {
+  display: flex;
+}
+
+/* animations + box styling */
