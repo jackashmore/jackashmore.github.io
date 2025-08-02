@@ -15,6 +15,39 @@ body {
   padding: 20px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.icons {
+  display: flex;
+  gap: 12px;
+}
+
+.icons a {
+  color: #FFFFFF;
+  font-size: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icons a:hover {
+  transform: scale(1.2);
+}
+
+.contribution {
+  text-align: center;
+}
+
+.contribution a {
+  color: #A6ACB9;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 .bubble {
   background-color: #2E3238;
   padding: 20px;
