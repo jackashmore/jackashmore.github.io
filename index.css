@@ -38,11 +38,12 @@ body {
   transform: scale(1.2);
 }
 
-.contribution {
+.comment {
   text-align: center;
+  font-size: 1.2em;
 }
 
-.contribution a {
+.comment a {
   color: #A6ACB9;
   text-decoration: underline;
   font-weight: bold;
@@ -63,6 +64,12 @@ body {
   background-color: #454B54;
   padding: 15px;
   border-radius: 12px;
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.nested-bubble:hover {
+  transform: scale(1.02);
 }
 
 .about-me-list {
@@ -105,6 +112,8 @@ h3::after {
 
 p {
   font-size: 1.2em;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 div {
@@ -112,7 +121,10 @@ div {
 }
 
 pre {
-  font-size: 1.2em
+  font-family: "MesloLGS-Regular";
+  font-size: 1.2em;
+  margin-left: 0;
+  padding-left: 0;
 }
   /* Colors:
     orange: #F9AE57
